@@ -5,7 +5,6 @@ app.get('/', (req, res) => {
   res.send('Hey, I\'m a Node.js app edited by farisp s !');
 });
 
-app.listen(8025, '127.0.0.1', () => {
-  console.log(`Server is up on http://127.0.0.1:8025`);
+app.listen(8025, '0.0.0.0', () => {
+  console.log(`Server is up on http://0.0.0.0:8025`);
 });
-
