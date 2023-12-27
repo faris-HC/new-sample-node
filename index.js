@@ -1,10 +1,11 @@
+
 const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hey, I\'m a Node.js app edited by faris from HC  update!');
-});
+  res.send('Hey, I\'m a Node.js app from Jenkins!');
+})
 
-app.listen(8025, '0.0.0.0', () => {
-  console.log(`Server is up on http://0.0.0.0:8025`);
-});
+app.listen(8006, '127.0.0.1', () => {
+  console.log(`Server is up on http://127.0.0.1:8006`);
+})
