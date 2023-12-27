@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hey, I\'m a Node.js app from Jenkins test 10!');
+  res.send('Hey, I\'m a Node.js app from Jenkins test 12!');
 })
 
 app.listen(8006, '127.0.0.1', () => {
